@@ -1,0 +1,211 @@
+@media screen and (min-width:481px) and (max-width:849px) {
+    .taxi_num {
+        position: relative;
+        display: block;
+        width: 97%;
+        max-width: 19.375rem;
+        margin: 0 auto;
+    }
+
+    .features {
+        background: url(../img/header_taxi.jpg) no-repeat 39% center;
+        background-size: cover;
+    }
+
+    .social {
+        margin: .625rem auto 0;
+        text-align: center;
+    }
+
+    .social a {
+        border: 3px solid #fff;
+    }
+
+    .social i {
+        color: #fff;
+    }
+
+    .features h1 {
+        font-size: 2.313rem;
+        line-height: 1.2;
+        margin-bottom: 1.2rem;
+        padding-top: 11.5rem;
+    }
+
+    .fast_taxi {
+        font-size: 1.563rem;
+        line-height: 1.1;
+    }
+
+    .features_items {
+        width: 95%;
+        margin: 2.25rem auto 0;
+    }
+
+    .features_item {
+        display: inline-block;
+        width: 33.3%;
+        vertical-align: top;
+    }
+
+    .features_item.first:hover .features_item_img {
+        background: url('../img/features_item1_hover.png') no-repeat center center;
+    }
+
+
+    .features_item.second:hover .features_item_img {
+        background: url('../img/features_item2_hover.png') no-repeat center center;
+    }
+
+    .features_item.third:hover .features_item_img {
+        background: url('../img/features_item3_hover.png') no-repeat center center;
+    }
+
+    .features_item.fourth:hover .features_item_img {
+        background: url('../img/features_item4_hover.png') no-repeat center center;
+    }
+
+    .features_item.fifth:hover .features_item_img {
+        background: url('../img/features_item5_hover.png') no-repeat center center;
+    }
+
+    .features_item.sixth:hover .features_item_img {
+        background: url('../img/features_item6_hover.png') no-repeat center center;
+    }
+
+    /*******order_now********/
+    .order_now h2 {
+        font-size: 2.313rem;
+        margin-bottom: 3.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .order_now .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+     .with_iframe {
+        margin: 0 auto 5rem;
+    }
+
+    .types_cars {
+        margin: 0 auto;
+    }
+
+    .bx-wrapper {
+        margin-bottom: 0;
+        padding-bottom: 5rem;
+    }
+
+    /******services*****/
+    .services h2 {
+        font-size: 2.313rem;
+        margin-bottom: 3.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .services {
+        padding-bottom: 2.875rem;
+    }
+
+    .service_item {
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 1.875rem;
+        vertical-align: top;
+    }
+
+    .for_order {
+        margin-top: 1.25rem;
+        padding: 0 3.125rem;
+    }
+
+    .icon {
+        height: 6.563rem;
+    }
+
+    .service_item i {
+        font-size: 7.5rem;
+    }
+
+    .service_item:hover i {
+        color: #dada00;
+        font-size: 6.875rem;
+    }
+
+    .service_item:hover p {
+        color: #dada00;
+    }
+
+    .service_item p {
+        padding: 0 2.563rem;
+    }
+
+    /*****vacancies*****/
+    .vacancies h2 {
+        font-size: 2.313rem;
+        margin-bottom: 3.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .vacancies {
+        padding-bottom: 3rem;
+    }
+
+    .employees {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        margin-left: -12.5rem;
+    }
+
+    .employee p {
+        font-size: 1.5rem;
+    }
+
+    .need {
+        margin-bottom: 3.5rem;
+    }
+
+    .employee i {
+        font-size: 2.5rem;
+        margin-right: 1.125rem;
+        color: #fff;
+    }
+
+    .question_numb {
+        line-height: 2;
+        margin: 3rem 0;
+        padding: 0 21%;
+    }
+
+    /*****footer*****/
+    footer {
+        padding: 2rem 0;
+    }
+
+    .social.footer_social {
+        position: absolute;
+        right: 0;
+    }
+
+    footer .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width:620px) {
+        footer {
+            text-align: center;
+        }
+
+        .social.footer_social {
+            position: relative;
+            display: block;
+            margin: 0 auto 2rem;
+        }
+
+    }
+
+}

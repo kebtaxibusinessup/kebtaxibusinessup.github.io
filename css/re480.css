@@ -1,0 +1,175 @@
+@media screen and (max-width:480px) {
+
+    .container {
+        padding: 0 0.4rem;
+    }
+
+    .taxi_num {
+        position: relative;
+        background-color: #dada00;
+        width: 97%;
+        margin: 0 auto;
+        display: block;
+        max-width: 19.375rem;
+        z-index: 1;
+    }
+
+    .features {
+        background: url(../img/header_taxi.jpg) no-repeat 39% center;
+        background-size: cover;
+    }
+
+    .social {
+        margin: .625rem auto 0;
+        text-align: center;
+    }
+
+    .social a {
+        border: 3px solid #fff;
+    }
+
+    .social i {
+        color: #fff;
+    }
+
+    .features h1 {
+        font-size: 2.313rem;
+        line-height: 1.2;
+        margin-bottom: 1.2rem;
+        padding-top: 11.5rem;
+    }
+
+    .fast_taxi {
+        font-size: 1.563rem;
+        line-height: 1.1;
+    }
+
+    .features_items {
+        margin: 2.25rem auto 0;
+    }
+
+    .features_item {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+    }
+
+    /*******order_now********/
+    .order_now h2 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .order_now .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+     .with_iframe {
+        margin: 0 auto 5rem;
+    }
+
+    .types_cars {
+        margin: 0 auto;
+    }
+
+    .bx-wrapper {
+        margin-bottom: 0;
+        padding-bottom: 5rem;
+    }
+
+    .with_iframe {
+        width: 18.75rem;
+    }
+
+    /******services*****/
+    .services h2 {
+        font-size: 2.313rem;
+        margin-bottom: 3.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .services {
+        padding-bottom: 2.875rem;
+    }
+
+    .service_item {
+        display: inline-block;
+        width: 50%;
+        margin-bottom: 1.875rem;
+        vertical-align: top;
+    }
+
+    .for_order {
+        margin-top: 1.25rem;
+        padding: 0 .625rem;
+    }
+
+    .service_item p {
+        padding: 0 .813rem;
+    }
+
+    .icon {
+        height: 5.625rem;
+    }
+
+    .service_item i {
+        font-size: 6.25rem;
+    }
+
+    /*****vacancies*****/
+    .vacancies h2 {
+        font-size: 2.313rem;
+        margin-bottom: 3.125rem;
+        padding-top: 3.125rem;
+    }
+
+    .vacancies {
+        padding-bottom: 3rem;
+    }
+
+    .employees {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        margin-left: -8.625rem;
+    }
+
+    .need {
+        margin-bottom: 3.5rem;
+    }
+
+    .employee i {
+        font-size: 2rem;
+        margin-right: 1.125rem;
+        color: #fff;
+    }
+
+    .employee p {
+        font-size: 1rem;
+    }
+
+    .question_numb {
+        line-height: 2;
+        margin: 3rem 0;
+        padding: 0 1rem;
+    }
+
+    /*****footer*****/
+    footer {
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .social.footer_social {
+        position: relative;
+        display: block;
+        margin: 0 auto 1rem;
+    }
+
+    .site_by a {
+        display: block;
+    }
+
+}

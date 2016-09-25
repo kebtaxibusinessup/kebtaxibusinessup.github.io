@@ -1,0 +1,213 @@
+@media screen and (min-width:850px) {
+    .container {
+        width: 50.000rem;
+        margin: 0 auto;
+    }
+
+    .features_item {
+        display: inline-block;
+        width: 16.6%;
+        vertical-align: top;
+    }
+
+    .features_items {
+        margin-top: 4.063rem;
+        text-align: center;
+    }
+
+    .features_item.first:hover .features_item_img {
+        background: url('../img/features_item1_hover.png') no-repeat center center;
+    }
+
+
+    .features_item.second:hover .features_item_img {
+        background: url('../img/features_item2_hover.png') no-repeat center center;
+    }
+
+    .features_item.third:hover .features_item_img {
+        background: url('../img/features_item3_hover.png') no-repeat center center;
+    }
+
+    .features_item.fourth:hover .features_item_img {
+        background: url('../img/features_item4_hover.png') no-repeat center center;
+    }
+
+    .features_item.fifth:hover .features_item_img {
+        background: url('../img/features_item5_hover.png') no-repeat center center;
+    }
+
+    .features_item.sixth:hover .features_item_img {
+        background: url('../img/features_item6_hover.png') no-repeat center center;
+    }
+
+    .container_head_of_header {
+        position: relative;
+        width: 93%;
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    .taxi_num {
+        position: absolute;
+        left: 50%;
+        margin-left: -9.938rem;
+    }
+
+    .features {
+        background: url(../img/header_taxi.jpg) no-repeat 39% center;
+        background-size: cover;
+    }
+
+    .social {
+        position: absolute;
+        top: .5rem;
+        right: 0;
+    }
+
+    .social li a {
+        border: 3px solid #000;
+    }
+
+    .social i {
+        color: #000;
+    }
+
+    .social li:hover i {
+        color: #fff;
+    }
+
+    .social li:hover a {
+        border-color: #fff;
+    }
+
+    .features h1 {
+        font-size: 3rem;
+        margin-bottom: 2.188rem;
+    }
+
+    .fast_taxi {
+        font-size: 2.25rem;
+    }
+
+    .features {
+        background: url('../img/header_taxi.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    /*******order_now********/
+    .order_now {
+        padding-bottom: 2.8rem;
+    }
+
+    .order_now h2 {
+        font-size: 2.8rem;
+        margin-bottom: 2.8rem;
+        padding-top: 2.8rem;
+    }
+
+    .with_iframe {
+        display: inline-block;
+        width: 49%;
+    }
+
+    .types_cars {
+        display: inline-block;
+        width: 49%;
+        vertical-align: bottom;
+        margin-left: 0.688rem;
+    }
+
+    /******services*******/
+    .services .container {
+        width: 95%;
+        max-width: 90rem;
+    }
+
+    .services {
+        padding-bottom: 5.813rem;
+    }
+
+    .service_item {
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+    }
+
+    .services h2 {
+        font-size: 3rem;
+        margin-bottom: 5.563rem;
+        padding-top: 5.313rem;
+    }
+
+    .for_order {
+        margin-top: 4.375rem;
+        padding: 0 8.438rem;
+    }
+
+    .icon {
+        height: 6.563rem;
+    }
+
+    .service_item i {
+        font-size: 7.5rem;
+    }
+
+    .service_item:hover i {
+        color: #dada00;
+        font-size: 6.875rem;
+    }
+
+    .service_item:hover p {
+        color: #dada00;
+    }
+
+
+    /*****vacancies*****/
+    .vacancies {
+        padding-bottom: 6rem;
+    }
+
+    .vacancies h2 {
+        font-size: 3rem;
+        margin-bottom: 2.188rem;
+        padding-top: 5.313rem;
+    }
+
+    .employees {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        margin-left: -12.5rem;
+    }
+
+    .employee p {
+        font-size: 1.5rem;
+    }
+
+    .need {
+        margin-bottom: 5.625rem;
+    }
+
+    .employee i {
+        font-size: 2.5rem;
+        margin-right: 1.125rem;
+        color: #fff;
+    }
+
+    .question_numb {
+        line-height: 2;
+        margin: 6rem 0 4.75rem;
+        padding: 0 9rem;
+    }
+
+    /*****footer*****/
+    footer {
+        padding: 5.938rem 0;
+    }
+
+    footer .container {
+        width: 85%;
+        max-width: 90rem;
+    }
+
+}
