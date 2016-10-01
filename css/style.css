@@ -167,15 +167,14 @@ img {
 }
 
 .features_button {
-    margin: 2.875rem auto;
+    margin: 2.6rem auto;
     text-align: center;
 }
 
 .features_button a {
     font-family: 'HelveticaNeue_Medium';
     font-weight: bold;
-    /*padding: 1.25rem 1.813rem;*/
-    -webkit-transition: all .2s; /* Safari */
+    -webkit-transition: all .2s;
     transition: all .2s;
     text-decoration: none;
     text-transform: uppercase;
@@ -228,33 +227,7 @@ img {
     background-color: rgba(0, 0, 0, .6);
 }
 
-.mouse {
-    display: block;
-    margin: .188rem auto 0;
-}
 
-.arrow {
-    position: absolute;
-    left: 50%;
-    margin-top: .5rem;
-    margin-left: -.375rem;
-    -webkit-animation: shake .4s linear alternate infinite;
-    animation: shake .4s linear alternate infinite;
-}
-
-@-webkit-keyframes shake {
-    100% {
-        -webkit-transform: translateY(-6px);
-    }
-
-}
-
-@keyframes shake {
-    100% {
-        transform: translateY(-6px);
-    }
-
-}
 
 .features {
     padding-bottom: 1.5rem;
@@ -322,14 +295,14 @@ img {
 
 /*******order_now********/
 .order_now {
-    background: url("../img/order_now_img.jpg") repeat center center;
-    background-size: initial;
+       background: url(../img/head_yellow.png) repeat fixed;
+       box-shadow: 0px -15px 59px #000;
 }
 
 .order_now h2 {
     font-family: 'HelveticaNeue_heavy';
     text-transform: uppercase;
-    color: #fff;
+    color: #37322f;
     text-align: center;
 }
 
@@ -374,22 +347,13 @@ img {
     bottom: 0;
     width: 100%;
     height: 36px;
-    transition: all 0.5s;
-}
-
-.bxslider>div:hover .about_car {
-    height: 100px;
-}
-
-.about_car p {
-    color: #fff;
-    font-family: 'HelveticaNeue_Medium';
-    margin: 8px 0 0 15px;
 }
 
 .name_car {
+    color: #fff;
+    font-family: 'HelveticaNeue_Medium';
+    margin: 8px 0 0 15px;
     font-size: 1.125rem;
-
 }
 
 .bxslider>div {

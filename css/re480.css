@@ -54,6 +54,14 @@
         vertical-align: top;
     }
 
+    .mouse {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
     /*******order_now********/
     .order_now h2 {
         font-size: 2rem;
